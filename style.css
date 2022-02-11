@@ -1,0 +1,172 @@
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+
+.container{
+    width: 1349px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+:root{
+    --blue: #00D6B4;
+    --wiht: #fff;
+
+}
+
+.header{
+    width: 100%;
+    height: 470px;
+    background: url(./imges/IMAGE\ \(2\).png)no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar ul{
+    position: relative;
+    top: 30px;
+    display: flex;
+}
+
+.logo li a{
+    color: var(--wiht);
+    margin-left: 10px;
+}
+
+.navbar .nav li{
+    margin-right: 10px;
+}
+
+.navbar .nav li a{
+    color: var(--blue);
+    font-size: 20px;
+    font-weight: 400;
+    transition: .4s ease;
+    text-transform: uppercase;
+}
+
+.navbar .nav li a:hover{
+    color: #fff;
+}
+
+
+.header-title{
+    display: block;
+    text-align: center;
+    /* margin-top: 50px; */
+    position: relative;
+    top: 150px;
+}
+
+.header-title h2{
+    color: var(--wiht);
+    font-size: 36px;
+}
+
+.header-title button{
+    padding: 8px 15px;
+    background: none;
+    border: none;
+    border: 1px solid var(--blue);
+    margin-top: 20px;
+}
+
+.header-title button a{
+    color: var(--blue);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    transition: .4s;
+}
+
+.header-title button a:hover{
+    color: var(--wiht);
+}
+
+/* work section */
+
+.Work{
+    background: #222222;
+    height: 100%;
+    width: 100%;
+}
+
+
+.work-img{
+    display: inline-block;
+    text-align: center;
+}
+.work-img img{
+    margin: 30px;
+    transition: .2s ease;
+    transition: .4s;
+}
+
+.work-img img:hover{
+    box-shadow: 30px 20px 40px red;
+    cursor: pointer;
+}
+
+.Work-title h1{
+    color: var(--wiht);
+    text-align: center;
+    font-size: 25px;
+    line-height: 100px;
+    padding-top: 10px;
+}
+
+
+.footer{
+    width: 100%;
+    height: 122px;
+    background: #222222;
+    padding-top: 40px;
+}
+
+.footer li a{
+    color: var(--wiht);
+}
+
+.footer{
+    text-align: center;
+    color: #999999;
+     
+}
+
+@media screen and (max-width:939px) {
+    .container{
+     width: 100%;
+    overflow: hidden;
+    }
+
+    .header{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:555px) {
+    .container{
+     width: 100%;
+    overflow: hidden;
+    }
+
+    .header{
+        width: 100%;
+    }
+
+
+   
+}
